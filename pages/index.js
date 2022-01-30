@@ -27,7 +27,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Primer
         </h1>
-        <p>Surveying the new Web3 git alandscape.</p>
+        <p>Surveying the new Web3 landscape.</p>
 
         <h1 className="title">
           {' '}
@@ -80,7 +80,7 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        <p>Shrey Jain</p>
+        <p>By Shrey</p>
       </footer>
     </div>
   )
