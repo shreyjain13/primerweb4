@@ -71,14 +71,7 @@ export default function Home() {
           />
       <SignersList projectId={'toronto'} />
       </center>
-
-
-
-        
       </main>
-
-
-
       <footer className={styles.footer}>
         <p>By Shrey</p>
       </footer>
