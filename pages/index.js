@@ -26,7 +26,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Primer
         </h1>
-        <p>Surveying the new landscape.</p>
+        <p>Surveying the new Web3 landscape.</p>
 
         
       </main>
