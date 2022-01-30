@@ -32,7 +32,25 @@ export default function Home() {
         <h1 className="title">
           {' '}
           <Link href="/posts/nft">
-            <a>NFT</a>
+            <a><u>Unit 1: NFTs</u></a>
+          </Link>
+        </h1>
+        <h1 className="title">
+          {' '}
+          <Link href="/posts/daos">
+            <a><u>Unit 2: DAOs</u></a>
+          </Link>
+        </h1>
+        <h1 className="title">
+          {' '}
+          <Link href="/posts/defi">
+            <a><u>Unit 3: DeFi</u></a>
+          </Link>
+        </h1>
+        <h1 className="title">
+          {' '}
+          <Link href="/posts/wallet">
+            <a><u>Unit 4: Wallets</u></a>
           </Link>
         </h1>
       <center>
