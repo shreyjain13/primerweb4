@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
+import Link from "next/link";
 
 const SignLegacy = dynamic(() =>
   import('legacy-xyz').then((legacy) => legacy.SignLegacy),
@@ -26,11 +27,15 @@ export default function Home() {
         <h1 className={styles.title}>
           Primer
         </h1>
-        <p>Surveying the new Web3 landscape.</p>
+        <p>Surveying the new Web3 git alandscape.</p>
 
-        
-      </main>
-
+        <h1 className="title">
+          {' '}
+          <Link href="/posts/nft">
+            <a>NFT</a>
+          </Link>
+        </h1>
+      <center>
       <SignLegacy projectId={'toronto'}
             message={'Thank you for reading our content. Sign this list to show endorsement.'}
             buttonStyle={
@@ -47,6 +52,14 @@ export default function Home() {
             showLegacy={false}
           />
       <SignersList projectId={'toronto'} />
+      </center>
+
+
+
+        
+      </main>
+
+
 
       <footer className={styles.footer}>
         <p>Shrey Jain</p>
